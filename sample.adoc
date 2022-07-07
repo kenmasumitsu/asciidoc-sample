@@ -39,7 +39,7 @@ graph TD;
 
 [#img-png] 
 .PNG画像
-image::piece01_luffy.png[, 400]
+image::onepiece01_luffy.png[, 400]
 
 
 

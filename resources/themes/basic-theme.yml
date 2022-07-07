@@ -1,0 +1,12 @@
+# extends: default
+extends: default-with-font-fallbacks
+font:
+  catalog:
+    merge: true
+    KaiGenGothicJP:
+      normal: KaiGenGothicJP-Regular.ttf
+      bold: KaiGenGothicJP-Bold.ttf
+      italic: KaiGenGothicJP-Regular-Italic.ttf
+      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
+base:
+  font_family: KaiGenGothicJP

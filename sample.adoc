@@ -1,0 +1,55 @@
+= サンプルドキュメント
+:doctype: book
+:toc:
+:toclevels: 5
+:sectnums:
+:author: Ken
+:revdate: 2022/07/05
+:revnumber: 1.0.0
+:lang: ja
+:imagesdir: images
+:xrefstyle: short  
+
+
+== 最初のセクション
+
+hello
+
+**bold hello**
+
+こんにちは
+
+**太字のこんにちは**
+
+[#sec-images] 
+== 次のセクション
+
+[#img-mermaid] 
+.mermaid画像
+[mermaid]
+....
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+....
+
+
+
+[#img-png] 
+.PNG画像
+image::piece01_luffy.png[, 400]
+
+
+
+
+== その次のセクション
+
+
+画像は、<<sec-images>> にあります。
+
+mermaid で記述した画像は、<<img-mermaid>> 参照。
+
+PNG画像は、 <<img-png>> 参照。
+
